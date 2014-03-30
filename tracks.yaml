@@ -14,8 +14,8 @@ tracks:
     patches: null
     release_inc: '0'
     release_repo_url: null
-    release_tag: hector_models-:{version}
+    release_tag: :{version}
     ros_distro: hydro
     vcs_type: git
     vcs_uri: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
-    version: :{auto}
+    version: :{ask}
