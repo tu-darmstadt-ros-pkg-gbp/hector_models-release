@@ -1,0 +1,27 @@
+ros-indigo-hector-xacro-tools (0.4.0-0saucy) saucy; urgency=high
+
+  * Remove origin tag as already set via insert block
+  * Add additional macros
+  * Contributors: kohlbrecher
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Fri, 06 Nov 2015 23:00:00 -0000
+
+ros-indigo-hector-xacro-tools (0.3.2-0saucy) saucy; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sun, 31 Aug 2014 22:00:00 -0000
+
+ros-indigo-hector-xacro-tools (0.3.1-0saucy) saucy; urgency=high
+
+
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sat, 29 Mar 2014 23:00:00 -0000
+
+ros-indigo-hector-xacro-tools (0.3.0-0saucy) saucy; urgency=high
+
+  * catkinized stack hector_models
+
+ -- Johannes Meyer <meyer@fsr.tu-darmstadt.de>  Sun, 01 Sep 2013 22:00:00 -0000
+
+
