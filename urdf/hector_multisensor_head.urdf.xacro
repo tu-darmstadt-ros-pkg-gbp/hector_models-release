@@ -6,11 +6,15 @@
     <xacro:include filename="$(find hector_sensors_description)/urdf/asus_camera.urdf.xacro" />
 
     <xacro:property name="M_PI" value="3.14159265359"/>
-    <xacro:macro name="hector_multisensor_head_macro" params="parent name scaling *origin">
+    
+    <xacro:macro name="hector_multisensor_head_macro" params="parent name scaling *origin *calibration">
         <link name="${name}_link">
-            <xacro:inertial_sphere_with_pose mass="0.1" diameter="0.03">
-                <origin xyz="0.0 0.0 0" rpy="0 0 0"/>
-            </xacro:inertial_sphere_with_pose>
+	  
+             <inertial>
+	      <mass value="0.8"/>
+	      <inertia ixx="0.0025" ixy="0.0" ixz="0.0001" iyy="0.0013" iyz="0.0" izz="0.0026"/>
+	    </inertial>
+	    
             <collision name="collision">
                  <xacro:insert_block name="origin"/>
                 <geometry>
@@ -26,7 +30,6 @@
         </link>
         <joint name="${name}_lidar_spinning_joint" type="continuous">
             <origin xyz="0.061 0.0 0.134" rpy="0 0 0"/>
-            <xacro:insert_block name="origin"/>
             <parent link="${name}_link" />
             <child link="${name}_lidar_mount_link"/>
             <axis xyz="1 0 0" rpy="0 0 0"/>
@@ -34,12 +37,12 @@
             <joint_properties damping="500.0" friction="200.0"/>
         </joint>
         <link name="${name}_lidar_mount_link">
-            <xacro:inertial_sphere_with_pose_macro mass="1.1" diameter="0.03">
+            <xacro:inertial_sphere_with_pose_macro mass="0.1" diameter="0.03">
                 <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
             </xacro:inertial_sphere_with_pose_macro>
         </link>
         <xacro:hokuyo_utm30lx name="${name}_link_hokuyo_laser" parent="${name}_lidar_mount_link" ros_topic="/head_lidar/scan" update_rate="40" ray_count="1040" min_angle="130" max_angle="-130">
-            <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+            <xacro:insert_block name="calibration" />
         </xacro:hokuyo_utm30lx>
 	
         <transmission name="${name}_lidar_spinning_joint_transmission">
@@ -57,7 +60,7 @@
         </gazebo>
 
 	<xacro:asus_camera name="${name}_cam" parent="${name}_link">
-	                <origin xyz="0.0385 0.0 0.2385" rpy="0 0 0"/>
+	                <origin xyz="0.065 0.0 0.23" rpy="0 0 0"/>
 	</xacro:asus_camera>  
    
         <!-- <gazebo reference="${name}_spinning_lidar_root_link"><material>Gazebo/Grey</material></gazebo><gazebo reference="${name}_spinning_lidar_spin_link"><material>Gazebo/Grey</material></gazebo> -->
