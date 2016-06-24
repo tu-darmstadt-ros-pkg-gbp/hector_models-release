@@ -1,3 +1,30 @@
+## hector_models (jade) - 0.4.2-0
+
+The packages in the `hector_models` repository were released into the `jade` distro by running `/usr/bin/bloom-release --track jade --rosdistro jade hector_models` on `Fri, 24 Jun 2016 14:51:47 -0000`
+
+These packages were released:
+- `hector_components_description`
+- `hector_models`
+- `hector_sensors_description`
+- `hector_xacro_tools`
+
+Version of package(s) in repository `hector_models`:
+
+- upstream repository: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+- release repository: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_models-release.git
+- rosdistro version: `0.4.1-0`
+- old version: `0.4.1-0`
+- new version: `0.4.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.10`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.4.7`
+- vcstools version: `0.1.38`
+
+
 ## hector_models (indigo) - 0.4.2-0
 
 The packages in the `hector_models` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --track indigo --rosdistro indigo hector_models` on `Fri, 24 Jun 2016 14:48:25 -0000`
