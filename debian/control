@@ -1,0 +1,12 @@
+Source: ros-kinetic-hector-components-description
+Section: misc
+Priority: extra
+Maintainer: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/hector_components_description
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-hector-components-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-hector-sensors-description, ros-kinetic-hector-xacro-tools, ros-kinetic-xacro
+Description: hector_components_description contains URDF xacro macros for robot components, so they are easily attachable to robot models.
