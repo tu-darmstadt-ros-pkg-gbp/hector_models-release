@@ -1,0 +1,12 @@
+Source: ros-lunar-hector-components-description
+Section: misc
+Priority: extra
+Maintainer: Stefan Kohlbrecher <kohlbrecher@sim.tu-darmstadt.de>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: http://ros.org/wiki/hector_components_description
+Standards-Version: 3.9.2
+
+Package: ros-lunar-hector-components-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-hector-sensors-description, ros-lunar-hector-xacro-tools, ros-lunar-xacro
+Description: hector_components_description contains URDF xacro macros for robot components, so they are easily attachable to robot models.
