@@ -1,0 +1,12 @@
+Source: ros-lunar-hector-models
+Section: misc
+Priority: extra
+Maintainer: Johannes Meyer <johannes@intermodalics.eu>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: http://ros.org/wiki/hector_models
+Standards-Version: 3.9.2
+
+Package: ros-lunar-hector-models
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-hector-sensors-description, ros-lunar-hector-xacro-tools
+Description: hector_models contains (urdf) models of robots, sensors etc.
