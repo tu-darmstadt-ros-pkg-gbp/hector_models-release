@@ -1,0 +1,45 @@
+ros-melodic-hector-models (0.5.0-0stretch) stretch; urgency=high
+
+
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Thu, 28 Jun 2018 22:00:00 -0000
+
+ros-melodic-hector-models (0.4.2-0stretch) stretch; urgency=high
+
+
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Thu, 23 Jun 2016 22:00:00 -0000
+
+ros-melodic-hector-models (0.4.1-0stretch) stretch; urgency=high
+
+
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Sat, 07 Nov 2015 23:00:00 -0000
+
+ros-melodic-hector-models (0.4.0-0stretch) stretch; urgency=high
+
+
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Fri, 06 Nov 2015 23:00:00 -0000
+
+ros-melodic-hector-models (0.3.2-0stretch) stretch; urgency=high
+
+
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Sun, 31 Aug 2014 22:00:00 -0000
+
+ros-melodic-hector-models (0.3.1-0stretch) stretch; urgency=high
+
+  * made hector_models a true metapackage
+  * Moved package hector_sensors_gazebo to ../hector_gazebo
+  * Contributors: Johannes Meyer
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Sat, 29 Mar 2014 23:00:00 -0000
+
+ros-melodic-hector-models (0.3.0-0stretch) stretch; urgency=high
+
+  * catkinized stack hector_models
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Sun, 01 Sep 2013 22:00:00 -0000
+
+
