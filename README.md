@@ -1,3 +1,30 @@
+## hector_models (melodic) - 0.5.0-0
+
+The packages in the `hector_models` repository were released into the `melodic` distro by running `/usr/bin/bloom-release hector_models --rosdistro melodic --track melodic` on `Fri, 29 Jun 2018 16:50:56 -0000`
+
+These packages were released:
+- `hector_components_description`
+- `hector_models`
+- `hector_sensors_description`
+- `hector_xacro_tools`
+
+Version of package(s) in repository `hector_models`:
+
+- upstream repository: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.5.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.3`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.8`
+- vcstools version: `0.1.40`
+
+
 ## hector_models (lunar) - 0.5.0-0
 
 The packages in the `hector_models` repository were released into the `lunar` distro by running `/usr/bin/bloom-release hector_models --rosdistro lunar --track lunar` on `Fri, 29 Jun 2018 16:44:33 -0000`
