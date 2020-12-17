@@ -1,0 +1,54 @@
+ros-noetic-hector-xacro-tools (0.5.0-1focal) focal; urgency=high
+
+  * Merge branch 'update_transmissions' into kinetic-devel
+    Fix xmlns for all xacro files
+  * Update to transmissions, prepending "hardware_interface/"
+  * fixed warning
+  * Add macro for default setting joint properties
+  * Contributors: Alexander Stumpf, Stefan Kohlbrecher
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Fri, 29 Jun 2018 00:00:00 -0000
+
+ros-noetic-hector-xacro-tools (0.4.2-1focal) focal; urgency=high
+
+  * Add joint macros (contains transmission macro for the moment)
+  * Contributors: Stefan Kohlbrecher
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Fri, 24 Jun 2016 00:00:00 -0000
+
+ros-noetic-hector-xacro-tools (0.4.1-1focal) focal; urgency=high
+
+  * hector_xacro_tools: fixed invalid brackets in inertial_sphere* xacro macros
+  * Cleaned up root element xmlns arguments according to http://gazebosim.org/tutorials?tut=ros_urdf#HeaderofaURDFFile
+  * Added missing xacro namespace prefix to XML tags
+  * Contributors: Johannes Meyer
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Sun, 08 Nov 2015 00:00:00 -0000
+
+ros-noetic-hector-xacro-tools (0.4.0-1focal) focal; urgency=high
+
+  * Remove origin tag as already set via insert block
+  * Add additional macros
+  * Contributors: kohlbrecher
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Sat, 07 Nov 2015 00:00:00 -0000
+
+ros-noetic-hector-xacro-tools (0.3.2-1focal) focal; urgency=high
+
+
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Mon, 01 Sep 2014 00:00:00 -0000
+
+ros-noetic-hector-xacro-tools (0.3.1-1focal) focal; urgency=high
+
+
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Sun, 30 Mar 2014 00:00:00 -0000
+
+ros-noetic-hector-xacro-tools (0.3.0-1focal) focal; urgency=high
+
+  * catkinized stack hector_models
+
+ -- Johannes Meyer <johannes@intermodalics.eu>  Mon, 02 Sep 2013 00:00:00 -0000
+
+
