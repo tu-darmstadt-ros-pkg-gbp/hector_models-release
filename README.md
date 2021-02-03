@@ -1,3 +1,30 @@
+## hector_models (noetic) - 0.5.2-1
+
+The packages in the `hector_models` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release hector_models --rosdistro noetic` on `Wed, 03 Feb 2021 15:23:18 -0000`
+
+These packages were released:
+- `hector_components_description`
+- `hector_models`
+- `hector_sensors_description`
+- `hector_xacro_tools`
+
+Version of package(s) in repository `hector_models`:
+
+- upstream repository: https://github.com/tu-darmstadt-ros-pkg/hector_models.git
+- release repository: https://github.com/tu-darmstadt-ros-pkg-gbp/hector_models-release.git
+- rosdistro version: `0.5.1-1`
+- old version: `0.5.1-1`
+- new version: `0.5.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## hector_models (noetic) - 0.5.1-1
 
 The packages in the `hector_models` repository were released into the `noetic` distro by running `/usr/local/bin/bloom-release hector_models --track noetic --rosdistro noetic --new-track` on `Thu, 17 Dec 2020 18:25:18 -0000`
